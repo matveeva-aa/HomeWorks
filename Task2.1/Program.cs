@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите 3 числа через запятую (a, b, c): ");
+            Console.Write("Введите 3 целых числа через запятую (a, b, c): ");
 
             string[] input = Console.ReadLine().Split(", ");
             int a = int.Parse(input[0]);
